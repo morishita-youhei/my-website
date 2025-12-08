@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 100px;
+}
+
+h2 {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+  background: url(../img/kinggnu_member.jpg) center/cover no-repeat fixed;
+}
+
+/* ===== menu ===== */
+#menu {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#menu p {
+  margin: 10px;
+}
+
+/* ===== MV ===== */
+#MV {
+  display: flex;
+  justify-content: center;
+}
+
+#MV p {
+  margin: 45px;
+}
+
+/* ===== pickup ===== */
+.pickup {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.reft {
+  margin-right: 420px;
+}
+
+.right {
+  margin-left: 420px;
+}
+
+/* ===== news ===== */
+#news {
+  color: white;
+}
+
+#news h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+  padding: 20px;
+}
+
+#news h3 {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#news p {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+/* ===== Album Pickup ===== */
+.AlubumPickup1,
+.AlubumPickup2 {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.PickupLeft {
+  margin-left: -310px;
+  margin-right: 170px;
+}
+
+.PickupRight {
+  margin-left: 170px;
+}
+
+/* ===== Album sections ===== */
+#Album1,
+#Album2 {
+  display: flex;
+  justify-content: center;
+}
+
+.AlubumLeft {
+  margin-right: 40px;
+}
+
+.AlubumRight {
+  margin-left: 250px;
+}
+
+.Album {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* ===== music ===== */
+.music {
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 630px;
+}
+
+.music br {
+  margin: 10px;
+}
+
+.music p {
+  text-decoration: underline;
+}
+
+/* ===== member names ===== */
+.常田,
+.井口,
+.新井,
+.勢喜 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.常田 {
+  margin-top: 15px;
+}
+
+.勢喜 {
+  margin-left: 65px;
+}
+
+/* ===== 横 ===== */
+.横 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.横 p {
+  margin: 30px;
+  padding: 10px;
+}
+
+.横 h2 {
+  padding-top: 90px;
+  margin-right: 40px;
+}
+
+/* ===== member section ===== */
+#member {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 600;
+}
+
+#member h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+#member p {
+  font-size: 20px;
+  background-color: grey;
+  opacity: 0.9;
+}
+
+/* ===== film slider ===== */
+.film-slider {
+  width: 100%;
+  overflow: hidden;
+  background: #111;
+  padding: 10px 0;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 180px;
+  margin: 10px 0;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 7 * 2);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track a {
+  flex: 0 0 auto;
+}
+
+.slide-track img {
+  width: 250px;
+  height: 180px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.holes-track {
+  display: flex;
+  width: calc(40px * 7 * 2);
+  animation: scroll 10s linear infinite;
+  position: relative;
+}
+
+.holes {
+  display: flex;
+}
+
+.hole {
+  width: 30px;
+  height: 15px;
+  background: white;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ===== left (sticky) ===== */
+.left {
+  width: 5%;
+  background: gray;
+  color: white;
+  padding: 20px;
+  padding-right: 10px;
+  opacity: 0.9;
+  top: 0;
+  position: sticky;
+}
